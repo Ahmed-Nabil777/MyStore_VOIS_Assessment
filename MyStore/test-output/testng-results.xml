@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45310" started-at="2020-12-01T04:34:29Z" finished-at="2020-12-01T04:35:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45310" started-at="2020-12-01T04:34:29Z" finished-at="2020-12-01T04:35:15Z">
+      <class name="MyStoreTests.RegistrationPageTests">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:MyStoreTests.RegistrationPageTests@8bd1b6a]" name="startDriver" is-config="true" duration-ms="13202" started-at="2020-12-01T04:34:51Z" finished-at="2020-12-01T04:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="TC_18()[pri:0, instance:MyStoreTests.RegistrationPageTests@8bd1b6a]" name="TC_18" duration-ms="10016" started-at="2020-12-01T04:35:04Z" finished-at="2020-12-01T04:35:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:MyStoreTests.RegistrationPageTests@8bd1b6a]" name="closeDriver" is-config="true" duration-ms="610" started-at="2020-12-01T04:35:14Z" finished-at="2020-12-01T04:35:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MyStoreTests.RegistrationPageTests -->
+      <class name="MyStoreTests.LoginPageTests">
+        <test-method status="PASS" signature="startDriver()[pri:0, instance:MyStoreTests.LoginPageTests@55f3ddb1]" name="startDriver" is-config="true" duration-ms="16981" started-at="2020-12-01T04:34:29Z" finished-at="2020-12-01T04:34:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="TC_13()[pri:0, instance:MyStoreTests.LoginPageTests@55f3ddb1]" name="TC_13" duration-ms="3874" started-at="2020-12-01T04:34:46Z" finished-at="2020-12-01T04:34:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:MyStoreTests.LoginPageTests@55f3ddb1]" name="closeDriver" is-config="true" duration-ms="601" started-at="2020-12-01T04:34:50Z" finished-at="2020-12-01T04:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- MyStoreTests.LoginPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
