@@ -30,7 +30,10 @@ public class RegistrationPageTests extends EnvironmentSetup
 	String Alias = ReadPropertiesFile.RegistrationData.getProperty("Alias");
 
 	@Test
-	public void TC_18() throws InterruptedException
+	public void TC_18() throws InterruptedException 
+	//Check the behavior of the system after filling all the mandatory fields and leave the optional ones then click register
+
+
 	{
 		homePageObj = new HomePage(driver);
 		SignInPageObj = new SignInPage(driver);

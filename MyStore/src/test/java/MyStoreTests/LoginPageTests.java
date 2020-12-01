@@ -19,6 +19,8 @@ public class LoginPageTests extends EnvironmentSetup{
 
 	@Test
 	public void TC_13() throws InterruptedException
+	//check if system inform user with the invalid email inserted in case of inserting invalid email format and correct password and click login
+
 	{
 		homePageObj = new HomePage(driver);
 		SignInPageObj = new SignInPage(driver);
